@@ -22,6 +22,115 @@
 {% endblock css %}
 {% block contenu %}
     {% block fos_user_content %}
+                <div>
+            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+                <a href="{{ path('fos_user_security_logout') }}">
+                    {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+                </a>
+            {% else %}
+                <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+            {% endif %}
+        </div>
+
+        {% if app.request.hasPreviousSession %}
+            {% for type, messages in app.session.flashbag.all() %}
+                {% for message in messages %}
+                    <div class="flash-{{ type }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
+
+    <div class="wrapper white-bg" >
+        <button type="button" id="returnToChoice">Retour vers les choix</button>
+    <div class="elements pricing-plan ptb-100">
+        <div class="container">
+            <div class="row" id="choice">
+                <div class="col-md-3 col-sm-4 col-xs-9">
+                    <div class="pricing-table text-center">
+                        <div class="pricing-title">
+                            <h3>Client</h3>
+                        </div>
+                        <div class="pricing-desc">
+                            <h2><span class="currency">$</span>0<span class="date">/free</span></h2>
+                            <ul>
+                                <li>Nail cutting & styling</li>
+                                <li>Hot Ayurvedic spa</li>
+                                <li>Hot oil massage</li>
+                                <li>Body wraps</li>
+                            </ul>
+                            <div class="book-now">
+                                <a class="inscri" data-role="ROLE_CLIENT" href="#">S'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-9">
+                    <div class="pricing-table text-center">
+                        <div class="pricing-title">
+                            <h3>Vendeur</h3>
+                        </div>
+                        <div class="pricing-desc">
+                            <h2><span class="currency">%</span>5<span class="date">/produit vendu</span></h2>
+                            <ul>
+                                <li>Nail cutting & styling</li>
+                                <li>Hot Ayurvedic spa</li>
+                                <li>Hot oil massage</li>
+                                <li>Body wraps</li>
+                            </ul>
+                            <div class="book-now">
+                                <a class="inscri" data-role="ROLE_VENDOR" href="#">S'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-9">
+                    <div class="pricing-table text-center">
+                        <div class="pricing-title">
+                            <h3>Nutritionniste</h3>
+                        </div>
+                        <div class="pricing-desc">
+                            <h2><span class="currency">$</span>0<span class="date">/free</span></h2>
+                            <ul>
+                                <li>Nail cutting & styling</li>
+                                <li>Hot Ayurvedic spa</li>
+                                <li>Hot oil massage</li>
+                                <li>Body wraps</li>
+                            </ul>
+                            <div class="book-now">
+                                <a class="inscri" data-role="ROLE_NUTRI" href="#">S'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 hidden-sm col-xs-9">
+                    <div class="pricing-table text-center">
+                        <div class="pricing-title">
+                            <h3>Etablissement</h3>
+                        </div>
+                        <div class="pricing-desc">
+                            <h2><span class="currency">$</span>50<span class="date">/month</span></h2>
+                            <ul>
+                                <li>Nail cutting & styling</li>
+                                <li>Hot Ayurvedic spa</li>
+                                <li>Hot oil massage</li>
+                                <li>Body wraps</li>
+                            </ul>
+                            <div class="book-now">
+                                <a class="inscri" data-role="ROLE_ETAB" href="#">S'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="form">
+            
+        
+        <div>
         {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
         <div class="contact-form ptb-100">
             <div class="container">
@@ -51,6 +160,7 @@
         </div>
 
         {{ form_end(form) }}
+        </div>
     {% endblock fos_user_content %}
 {% endblock %}
 {% block js %}
@@ -63,4 +173,32 @@
     <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
     <script src="{{ asset('js/plugins.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+    <script >
+    $(document).ready(function(){
+        $(".fos_user_registration_register").hide();
+        $(".vendeur,.hiddenRole").hide();
+        $("#returnToChoice").hide();
+        $(".inscri").click(function(event) {
+            $("#returnToChoice").fadeIn("3000");
+            var type=($(this).data("role"));
+            alert(type);
+            $("#choice").fadeOut("1000");
+            $(".fos_user_registration_register").fadeIn('1000');
+            if(type=="vendeur"){
+                $(".vendeur").show();
+            }
+            var $select=$(".hiddenRole");
+            $select.val(type);
+            alert($select.val());
+            //alert($select.html());
+
+        });
+        $("#returnToChoice").click(function(event) {
+            /* Act on the event */
+            $("#returnToChoice").hide();
+            $(".fos_user_registration_register").fadeOut('1000');
+            $("#choice").fadeIn("1000");
+        });
+    })
+</script>
 {% endblock js %}

@@ -8,7 +8,7 @@ etablissement:
 
 article:
     resource: "@ArticleBundle/Resources/config/routing.yml"
-    prefix:   /Article
+    prefix:   /admin/article
 
 ecommerce:
     resource: "@EcommerceBundle/Resources/config/routing.yml"

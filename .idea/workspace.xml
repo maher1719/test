@@ -3,233 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0b36cdd3-231f-4ab0-841e-e8e52742d161" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" afterPath="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/Gruntfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/component.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/css/select2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/bs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/dsb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hsb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/is.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ps.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/pt-BR.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sr-Cyrl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/zh-CN.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/zh-TW.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/select2.full.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/select2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/announcements-4.0.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/community.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/examples.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/options-old.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/options.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/select2.jquery.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/banner.end.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/banner.start.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/jquery.mousewheel.shim.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/jquery.select2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/jquery.shim.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/containerCss.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/dropdownCss.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/initSelection.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/inputData.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/matcher.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/query.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/core.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/ajax.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/array.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/base.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/maximumInputLength.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/maximumSelectionLength.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/minimumInputLength.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/select.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/tags.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/tokenizer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/defaults.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/diacritics.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/attachBody.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/attachContainer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/closeOnSelect.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/hidePlaceholder.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/infiniteScroll.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/minimumResultsForSearch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/search.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/selectOnClose.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/stopPropagation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/bs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/dsb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hsb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/is.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ps.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/pt-BR.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sr-Cyrl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/zh-CN.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/zh-TW.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/keys.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/results.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/allowClear.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/base.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/clickMask.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/eventRelay.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/multiple.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/placeholder.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/search.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/single.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/stopPropagation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/translation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/wrapper.end.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/wrapper.start.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/_dropdown.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/_multiple.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/_single.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/core.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/mixins/_gradients.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/_defaults.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/_multiple.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/_single.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/layout.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/default/_multiple.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/default/_single.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/default/layout.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/a11y/search-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/a11y/selection-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/array-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/base-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/inputData-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/maximumInputLength-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/maximumSelectionLength-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/minimumInputLength-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/select-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/tags-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/tokenizer-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/dropdownCss-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/positioning-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/selectOnClose-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/stopPropagation-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/helpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration/dom-changes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration/jquery-calls.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration/select2-methods.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/ajax-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/data-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/deprecated-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/translation-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/width-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/results/focusing-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/allowClear-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/containerCss-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/multiple-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/placeholder-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/search-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/single-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/stopPropagation-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/unit.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/utils/decorator-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/utils/escapeMarkup-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/vendor/jquery-1.7.2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/vendor/qunit-1.23.1.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/vendor/qunit-1.23.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/js/select2-master/vendor/jquery-2.1.0.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change beforePath="$PROJECT_DIR$/src/GUBundle/Entity/Signaler.php" afterPath="$PROJECT_DIR$/src/GUBundle/Entity/Signaler.php" />
+      <change beforePath="$PROJECT_DIR$/src/GUBundle/Entity/Utilisateur.php" afterPath="$PROJECT_DIR$/src/GUBundle/Entity/Utilisateur.php" />
+      <change beforePath="$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php" afterPath="$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php" />
+      <change beforePath="$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register.html.twig" afterPath="$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register_content.html.twig" afterPath="$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register_content.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -240,6 +21,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -271,83 +53,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArticleRate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/ArticleRate.php">
+      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Categorie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Categorie.php">
+      <file leaf-file-name="register_content.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Article.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+            <state relative-caret-position="366">
+              <caret line="189" column="41" lean-forward="false" selection-start-line="189" selection-start-column="41" selection-end-line="189" selection-end-column="41" />
               <folding>
-                <element signature="e#40#72#0#PHP" expanded="true" />
+                <element signature="e#12#28#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajouter_article.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/views/Article/ajouter_article.html.twig">
+      <file leaf-file-name="Utilisateur.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUBundle/Entity/Utilisateur.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="1380">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <file leaf-file-name="registration_choice.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/registration_choice.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7632">
-              <caret line="424" column="61" lean-forward="false" selection-start-line="424" selection-start-column="61" selection-end-line="424" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
+            <state relative-caret-position="-9">
+              <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EtablissementBundle/Resources/config/routing.yml">
+        <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="e#39#92#0#PHP" expanded="true" />
+                <element signature="e#2677#2800#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationType.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -397,7 +202,6 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/src/GUBundle/GUBundle.php" />
@@ -411,14 +215,9 @@
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/confirmed.html.twig" />
         <option value="$PROJECT_DIR$/src/GUBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/GUBundle/Resources/views/registration_choice.html.twig" />
         <option value="$PROJECT_DIR$/src/GUBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register_content.html.twig" />
         <option value="$PROJECT_DIR$/src/GUBundle/Form/RegistrationVendorType.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/src/GUBundle/Entity/Utilisateur.php" />
-        <option value="$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show_content.html.twig" />
         <option value="$PROJECT_DIR$/src/GUBundle/Resources/views/Default/index.html.twig" />
@@ -437,6 +236,14 @@
         <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/Article/ajouter_article.html.twig" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/GUBundle/Entity/Utilisateur.php" />
+        <option value="$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php" />
+        <option value="$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register_content.html.twig" />
       </list>
     </option>
   </component>
@@ -493,11 +300,11 @@
       <path value="$PROJECT_DIR$/vendor/kms/froala-editor-bundle" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-71" />
+    <option name="y" value="91" />
+    <option name="width" value="1350" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -515,6 +322,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -536,13 +345,34 @@
             <path>
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -550,39 +380,49 @@
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -590,23 +430,21 @@
               <item name="PIDEV-3A24-OneToMany" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIDEV-3A24-OneToMany" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GUBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Article" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Registration" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Article" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
@@ -671,32 +509,35 @@
       <workItem from="1518217961688" duration="6000" />
       <workItem from="1518218090353" duration="2316000" />
       <workItem from="1518221490966" duration="620000" />
+      <workItem from="1518259708715" duration="5521000" />
+      <workItem from="1518276942371" duration="1182000" />
+      <workItem from="1518285844591" duration="3607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69018000" />
+    <option name="totallyTimeSpent" value="79328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1366" height="741" extended-state="6" />
+    <frame x="-71" y="91" width="1350" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32218844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.429477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.429477" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -717,7 +558,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -726,70 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/email.txt.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/confirmed.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="93" lean-forward="false" selection-start-line="40" selection-start-column="93" selection-end-line="40" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Form/RegistrationVendorType.php" />
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/registration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/resetting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/change_password.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -825,44 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="e#39#92#0#PHP" expanded="true" />
-            <element signature="e#2552#2602#0#PHP" expanded="true" />
-            <element signature="e#2677#2800#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -901,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Entity/Utilisateur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SuiviBundle/Entity/RegimeRate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -943,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/registration_choice.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="80" column="61" lean-forward="false" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -961,13 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="49" column="84" lean-forward="false" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1024,15 +746,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/ArticleRate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="555">
           <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,41 +782,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Categorie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="600">
           <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7632">
-          <caret line="424" column="61" lean-forward="false" selection-start-line="424" selection-start-column="61" selection-end-line="424" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="6360">
+          <caret line="425" column="61" lean-forward="false" selection-start-line="425" selection-start-column="61" selection-end-line="425" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/views/Article/ajouter_article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="510">
           <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,9 +812,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kms/froala-editor-bundle/Form/Type/FroalaEditorType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kms/froala-editor-bundle/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="90" column="2" lean-forward="false" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
           <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
+            <marker date="1518258120329" expanded="true" signature="2809:2923" ph="kms_froala_editor: &lt;3 keys&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#39#92#0#PHP" expanded="true" />
+            <element signature="e#2677#2800#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Entity/Utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/registration_choice.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Resources/views/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="189" column="41" lean-forward="false" selection-start-line="189" selection-start-column="41" selection-end-line="189" selection-end-column="41" />
+          <folding>
+            <element signature="e#12#28#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUBundle/Form/RegistrationType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

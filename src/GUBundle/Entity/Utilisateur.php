@@ -39,12 +39,12 @@ class Utilisateur extends BaseUser
     protected $prenom;
 
     /**
-     * @ORM\Column(type="integer", length=8)
+     * @ORM\Column(type="integer", length=15)
      *
      * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
      * @Assert\Length(
      *     min=3,
-     *     max=255,
+     *     max=15,
      *     minMessage="Votre prénom est trés court.",
      *     maxMessage="Votre prénom est trés long.",
      *     groups={"Registration", "Profile"}
@@ -67,7 +67,7 @@ class Utilisateur extends BaseUser
     protected $address;
 
     /**
-     * @ORM\Column(type="string", length=4)
+     * @ORM\Column(type="integer", length=4)
      *
      * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
      * @Assert\Length(
@@ -79,6 +79,74 @@ class Utilisateur extends BaseUser
      * )
      */
     protected $codePostal;
+
+    /**
+     * @ORM\Column(type="string", length=25)
+     *
+     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
+     * @Assert\Length(
+     *     min=3,
+     *     max=25,
+     *     minMessage="Votre prénom est trés court.",
+     *     maxMessage="Votre prénom est trés long.",
+     *     groups={"Registration", "Profile"}
+     * )
+     */
+    protected $pays;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     *
+     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
+     * @Assert\Length(
+     *     min=3,
+     *     max=255,
+     *     minMessage="Votre prénom est trés court.",
+     *     maxMessage="Votre prénom est trés long.",
+     *     groups={"Registration", "Profile"}
+     * )
+     */
+    protected $ville;
+
+    /**
+     * @ORM\Column(type="integer", length=15)
+     *
+     * @Assert\Length(
+     *     min=3,
+     *     max=15,
+     *     minMessage="Votre prénom est trés court.",
+     *     maxMessage="Votre prénom est trés long.",
+     *     groups={"Registration", "Profile"}
+     * )
+     */
+    protected $fax;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     *
+     * @Assert\Length(
+     *     min=3,
+     *     max=255,
+     *     minMessage="Votre prénom est trés court.",
+     *     maxMessage="Votre prénom est trés long.",
+     *     groups={"Registration", "Profile"}
+     * )
+     */
+    protected $img;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     *
+     * @Assert\Length(
+     *     min=3,
+     *     max=255,
+     *     minMessage="Votre prénom est trés court.",
+     *     maxMessage="Votre prénom est trés long.",
+     *     groups={"Registration", "Profile"}
+     * )
+     */
+    protected $cv;
+
 
 
     public function __construct()
@@ -201,5 +269,125 @@ class Utilisateur extends BaseUser
     public function getCodePostal()
     {
         return $this->codePostal;
+    }
+
+    /**
+     * Set pays.
+     *
+     * @param string $pays
+     *
+     * @return Utilisateur
+     */
+    public function setPays($pays)
+    {
+        $this->pays = $pays;
+
+        return $this;
+    }
+
+    /**
+     * Get pays.
+     *
+     * @return string
+     */
+    public function getPays()
+    {
+        return $this->pays;
+    }
+
+    /**
+     * Set ville.
+     *
+     * @param string $ville
+     *
+     * @return Utilisateur
+     */
+    public function setVille($ville)
+    {
+        $this->ville = $ville;
+
+        return $this;
+    }
+
+    /**
+     * Get ville.
+     *
+     * @return string
+     */
+    public function getVille()
+    {
+        return $this->ville;
+    }
+
+    /**
+     * Set fax.
+     *
+     * @param int $fax
+     *
+     * @return Utilisateur
+     */
+    public function setFax($fax)
+    {
+        $this->fax = $fax;
+
+        return $this;
+    }
+
+    /**
+     * Get fax.
+     *
+     * @return int
+     */
+    public function getFax()
+    {
+        return $this->fax;
+    }
+
+    /**
+     * Set img.
+     *
+     * @param string $img
+     *
+     * @return Utilisateur
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+
+        return $this;
+    }
+
+    /**
+     * Get img.
+     *
+     * @return string
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * Set cv.
+     *
+     * @param string $cv
+     *
+     * @return Utilisateur
+     */
+    public function setCv($cv)
+    {
+        $this->cv = $cv;
+
+        return $this;
+    }
+
+    /**
+     * Get cv.
+     *
+     * @return string
+     */
+    public function getCv()
+    {
+        return $this->cv;
     }
 }

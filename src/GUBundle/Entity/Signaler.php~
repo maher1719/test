@@ -161,28 +161,5 @@ class Signaler
     {
         return $this->idType;
     }
-
-    /**
-     * Set idUser.
-     *
-     * @param int $idUser
-     *
-     * @return Signaler
-     */
-    public function setIdUser($idUser)
-    {
-        $this->id_user = $idUser;
-
-        return $this;
-    }
-
-    /**
-     * Get idUser.
-     *
-     * @return int
-     */
-    public function getIdUser()
-    {
-        return $this->id_user;
-    }
 }
+

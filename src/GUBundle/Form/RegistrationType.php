@@ -4,6 +4,7 @@ namespace GUBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
@@ -12,24 +13,26 @@ class RegistrationType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
+        $builder->add('roles', ChoiceType::class, array(
+            'label' => 'Type',
+            'choices' => array(
+                'ADMIN' => 'ROLE_ADMIN',
+                'CLIENT' => 'ROLE_CLIENT',
+                'ETABLISSEMENT' => 'ROLE_ETAB',
+                'VENDOR' => 'ROLE_VENDOR',
+                'NUTRITIONNIST' => 'ROLE_NUTRI'),
+            'required' => true,
+            'multiple' => true,
+            "attr"=>array("class"=>"hiddenRole","id"=>"rolesSelect")
+        ));
         $builder->add('nom');
         $builder->add('prenom');
         $builder->add('telephone');
         $builder->add('address');
         $builder->add('codePostal');
-            $builder->add('nom')->add('prenom')
-                ->add('roles', ChoiceType::class, array(
-                        'label' => 'Type',
-                        'choices' => array(
-                            'ADMIN' => 'ROLE_ADMIN',
-                            'CLIENT' => 'ROLE_CLIENT',
-                            'ETABLISSEMENT' => 'ROLE_ETAB',
-                            'VENDOR' => 'ROLE_VENDOR',
-                            'NUTRITIONNIST' => 'ROLE_NUTRI'),
-                        'required' => true,
-                        'multiple' => true,)
-                );
-
+        $builder->add('pays')
+                ->add('ville')
+                ->add('fax',NumberType::class,array("attr"=>array("class"=>"vendeur")));
 
     }
 
