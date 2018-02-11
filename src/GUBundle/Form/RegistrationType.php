@@ -30,9 +30,11 @@ class RegistrationType extends AbstractType
         $builder->add('telephone');
         $builder->add('address');
         $builder->add('codePostal');
-        $builder->add('pays')
-                ->add('ville')
-                ->add('fax',NumberType::class,array("attr"=>array("class"=>"vendeur")));
+        $builder->add('pays',ChoiceType::class,array("attr"=>array("class"=>"pays")))
+                ->add('region',ChoiceType::class,array("attr"=>array("class"=>"region")))
+                ->add('ville',ChoiceType::class,array("attr"=>array("class"=>"ville")))
+                //->add('fax',NumberType::class,array("attr"=>array("class"=>"vendeur","required"=>"false")))
+                ;
 
     }
 

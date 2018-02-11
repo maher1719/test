@@ -106,10 +106,24 @@ class Utilisateur extends BaseUser
      *     groups={"Registration", "Profile"}
      * )
      */
+    protected $region;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     *
+     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
+     * @Assert\Length(
+     *     min=3,
+     *     max=255,
+     *     minMessage="Votre prénom est trés court.",
+     *     maxMessage="Votre prénom est trés long.",
+     *     groups={"Registration", "Profile"}
+     * )
+     */
     protected $ville;
 
     /**
-     * @ORM\Column(type="integer", length=15)
+     * @ORM\Column(type="integer", length=15,nullable=true)
      *
      * @Assert\Length(
      *     min=3,
@@ -122,7 +136,7 @@ class Utilisateur extends BaseUser
     protected $fax;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255,nullable=true)
      *
      * @Assert\Length(
      *     min=3,
@@ -135,7 +149,7 @@ class Utilisateur extends BaseUser
     protected $img;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255,nullable=true)
      *
      * @Assert\Length(
      *     min=3,
@@ -389,5 +403,29 @@ class Utilisateur extends BaseUser
     public function getCv()
     {
         return $this->cv;
+    }
+
+    /**
+     * Set region.
+     *
+     * @param string $region
+     *
+     * @return Utilisateur
+     */
+    public function setRegion($region)
+    {
+        $this->region = $region;
+
+        return $this;
+    }
+
+    /**
+     * Get region.
+     *
+     * @return string
+     */
+    public function getRegion()
+    {
+        return $this->region;
     }
 }
