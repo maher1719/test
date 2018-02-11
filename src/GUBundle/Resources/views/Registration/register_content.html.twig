@@ -203,7 +203,7 @@
 
         $.getJSON(url,function(regions)
         {
-            $(".region option").remove();
+            $(".region option,.ville option").remove();
             //loop through regions..
             $.each(regions,function(key,region)
             {
