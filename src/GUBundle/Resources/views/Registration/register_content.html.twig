@@ -177,21 +177,23 @@
         <script src="{{ asset('js/select2-master/dist/js/select2.min.js') }}"></script>
     <script >
     $(document).ready(function(){
-        $('select').select2();
-        $(".region,.ville").hide();
+        $('.region,.ville,.pays').select2();
+        $(".region,.ville").prop("disabled", true);
         $(".fos_user_registration_register").hide();
         var $pays=$(".pays");
         const BATTUTA_KEY="149f419ffa589fb845481a824ee5ce55";
         var url_pays="{{asset('js/countries.json')}}";
+        $(".pays option").remove();
         $.getJSON(url_pays, function(json, textStatus) {
                 /*optional stuff to do after success */
                 $.each(json, function (i, item) {
+
                     $pays.append('<option data-code="'+item.code+'" value="'+item.name+'">'+item.name+'</option>');
                 });
         });
         $pays.change(function(event) {
             /* Act on the event */
-            var countryCode=$(this).find(':selected').data("code");
+            var countryCode=$(this).find(":selected").data("code");
             alert(countryCode);
         
         // Populate country select box from battuta API
@@ -208,6 +210,7 @@
                 $(".region").append("<option value='"+region.region+"'>"+region.region+"</option>");
             });
             $(".region").fadeIn(1000);
+             $(".region").prop("disabled", false);
         });
 
     });
@@ -215,7 +218,8 @@
     {
         
         // Populate country select box from battuta API
-        var countryCode=$pays.find(':selected').data("code");
+        var countryCode=$pays.find(":selected").data("code");
+        alert(countryCode);
         region=$(".region").val();
         url="https://battuta.medunes.net/api/city/"
         +countryCode
@@ -229,7 +233,7 @@
         {
             /*currentCities=cities;
             var i=0;*/
-            $(".villes option").remove();
+            $(".ville option").remove();
         
             //loop through regions..
             $.each(villes,function(key,ville)
@@ -239,7 +243,8 @@
                                 .append(ville.city)
                         .appendTo($(".ville"));
             });
-            $(".villes").fadeIn(1000);
+             $(".ville").prop("disabled", false);
+            $(".ville").fadeIn(1000);
             // trigger "change" to fire the #state section update process
             
             

@@ -40,6 +40,7 @@ class DefaultController extends RegistrationController
         }
 
         $form = $formFactory->createForm();
+        $form->add('pays', ChoiceType::class, array('choices'=>$choices_pays));
         $form->setData($user);
 
         $form->handleRequest($request);

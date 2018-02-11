@@ -81,44 +81,23 @@ class Utilisateur extends BaseUser
     protected $codePostal;
 
     /**
-     * @ORM\Column(type="string", length=25)
+     * @ORM\Column(type="string", length=255)
      *
-     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
-     * @Assert\Length(
-     *     min=3,
-     *     max=25,
-     *     minMessage="Votre prénom est trés court.",
-     *     maxMessage="Votre prénom est trés long.",
-     *     groups={"Registration", "Profile"}
-     * )
+     * @Assert\NotBlank(message="voulez vous saisir votre pays", groups={"Registration", "Profile"})
      */
     protected $pays;
 
     /**
      * @ORM\Column(type="string", length=255)
      *
-     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
-     * @Assert\Length(
-     *     min=3,
-     *     max=255,
-     *     minMessage="Votre prénom est trés court.",
-     *     maxMessage="Votre prénom est trés long.",
-     *     groups={"Registration", "Profile"}
-     * )
+     * @Assert\NotBlank(message="voulez vous saisir votre region", groups={"Registration", "Profile"})
      */
     protected $region;
 
     /**
      * @ORM\Column(type="string", length=255)
      *
-     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
-     * @Assert\Length(
-     *     min=3,
-     *     max=255,
-     *     minMessage="Votre prénom est trés court.",
-     *     maxMessage="Votre prénom est trés long.",
-     *     groups={"Registration", "Profile"}
-     * )
+     * @Assert\NotBlank(message="voulez vous saisir votre ville", groups={"Registration", "Profile"})
      */
     protected $ville;
 
