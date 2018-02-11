@@ -194,7 +194,7 @@
         $pays.change(function(event) {
             /* Act on the event */
             var countryCode=$(this).find(":selected").data("code");
-            alert(countryCode);
+            //alert(countryCode);
         
         // Populate country select box from battuta API
         url="https://battuta.medunes.net/api/region/"
@@ -219,7 +219,7 @@
         
         // Populate country select box from battuta API
         var countryCode=$pays.find(":selected").data("code");
-        alert(countryCode);
+        //alert(countryCode);
         region=$(".region").val();
         url="https://battuta.medunes.net/api/city/"
         +countryCode
@@ -258,7 +258,7 @@
         $(".inscri").click(function(event) {
             $("#returnToChoice").fadeIn("3000");
             var type=($(this).data("role"));
-            alert(type);
+            //alert(type);
             $("#choice").fadeOut("1000");
             $(".fos_user_registration_register").fadeIn('1000');
             if(type=="ROLE_VENDOR"){
