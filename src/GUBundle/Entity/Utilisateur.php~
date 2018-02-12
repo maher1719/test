@@ -7,8 +7,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\Common\Collections\Collection;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="GUBundle\Repository\UtilisateurRepository")
  * @ORM\Table(name="Utilisateur")
+ *
  */
 class Utilisateur extends BaseUser
 {
@@ -21,11 +22,11 @@ class Utilisateur extends BaseUser
 
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255 ,nullable= true)
      */
     protected $nom;
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable= true)
      *
      * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
      * @Assert\Length(
@@ -39,7 +40,7 @@ class Utilisateur extends BaseUser
     protected $prenom;
 
     /**
-     * @ORM\Column(type="integer", length=15)
+     * @ORM\Column(type="integer", length=15 ,nullable= true)
      *
      * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
      * @Assert\Length(
@@ -53,7 +54,7 @@ class Utilisateur extends BaseUser
     protected $telephone;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255 , nullable= true)
      *
      * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
      * @Assert\Length(
@@ -67,7 +68,7 @@ class Utilisateur extends BaseUser
     protected $address;
 
     /**
-     * @ORM\Column(type="integer", length=4)
+     * @ORM\Column(type="integer", length=4 ,nullable= true)
      *
      * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
      * @Assert\Length(
@@ -81,35 +82,36 @@ class Utilisateur extends BaseUser
     protected $codePostal;
 
     /**
-     * @ORM\Column(type="string", length=25)
+<<<<<<< HEAD
+     * @ORM\Column(type="string", length=25 , nullable= true)
+=======
+     * @ORM\Column(type="string", length=255)
+>>>>>>> 64aaa2e826fb40945a4945df83ab0464edf487c1
      *
-     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
-     * @Assert\Length(
-     *     min=3,
-     *     max=25,
-     *     minMessage="Votre prénom est trés court.",
-     *     maxMessage="Votre prénom est trés long.",
-     *     groups={"Registration", "Profile"}
-     * )
+     * @Assert\NotBlank(message="voulez vous saisir votre pays", groups={"Registration", "Profile"})
      */
     protected $pays;
 
     /**
+     * @ORM\Column(type="string", length=255 , nullable= true)
+     *
+     * @Assert\NotBlank(message="voulez vous saisir votre region", groups={"Registration", "Profile"})
+     */
+    protected $region;
+
+    /**
      * @ORM\Column(type="string", length=255)
      *
-     * @Assert\NotBlank(message="voulez vous saisir votre prénom", groups={"Registration", "Profile"})
-     * @Assert\Length(
-     *     min=3,
-     *     max=255,
-     *     minMessage="Votre prénom est trés court.",
-     *     maxMessage="Votre prénom est trés long.",
-     *     groups={"Registration", "Profile"}
-     * )
+     * @Assert\NotBlank(message="voulez vous saisir votre ville", groups={"Registration", "Profile"})
      */
     protected $ville;
 
     /**
-     * @ORM\Column(type="integer", length=15)
+<<<<<<< HEAD
+     * @ORM\Column(type="integer", length=15 ,nullable= true)
+=======
+     * @ORM\Column(type="integer", length=15,nullable=true)
+>>>>>>> 64aaa2e826fb40945a4945df83ab0464edf487c1
      *
      * @Assert\Length(
      *     min=3,
@@ -122,7 +124,11 @@ class Utilisateur extends BaseUser
     protected $fax;
 
     /**
-     * @ORM\Column(type="string", length=255)
+<<<<<<< HEAD
+     * @ORM\Column(type="string", length=255 , nullable= true)
+=======
+     * @ORM\Column(type="string", length=255,nullable=true)
+>>>>>>> 64aaa2e826fb40945a4945df83ab0464edf487c1
      *
      * @Assert\Length(
      *     min=3,
@@ -135,7 +141,11 @@ class Utilisateur extends BaseUser
     protected $img;
 
     /**
-     * @ORM\Column(type="string", length=255)
+<<<<<<< HEAD
+     * @ORM\Column(type="string", length=255, nullable= true)
+=======
+     * @ORM\Column(type="string", length=255,nullable=true)
+>>>>>>> 64aaa2e826fb40945a4945df83ab0464edf487c1
      *
      * @Assert\Length(
      *     min=3,
@@ -269,5 +279,152 @@ class Utilisateur extends BaseUser
     public function getCodePostal()
     {
         return $this->codePostal;
+    }
+
+    /**
+     * Set pays.
+     *
+     * @param string $pays
+     *
+     * @return Utilisateur
+     */
+    public function setPays($pays)
+    {
+        $this->pays = $pays;
+
+        return $this;
+    }
+
+    /**
+     * Get pays.
+     *
+     * @return string
+     */
+    public function getPays()
+    {
+        return $this->pays;
+    }
+
+    /**
+     * Set ville.
+     *
+     * @param string $ville
+     *
+     * @return Utilisateur
+     */
+    public function setVille($ville)
+    {
+        $this->ville = $ville;
+
+        return $this;
+    }
+
+    /**
+     * Get ville.
+     *
+     * @return string
+     */
+    public function getVille()
+    {
+        return $this->ville;
+    }
+
+    /**
+     * Set fax.
+     *
+     * @param int $fax
+     *
+     * @return Utilisateur
+     */
+    public function setFax($fax)
+    {
+        $this->fax = $fax;
+
+        return $this;
+    }
+
+    /**
+     * Get fax.
+     *
+     * @return int
+     */
+    public function getFax()
+    {
+        return $this->fax;
+    }
+
+    /**
+     * Set img.
+     *
+     * @param string $img
+     *
+     * @return Utilisateur
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+
+        return $this;
+    }
+
+    /**
+     * Get img.
+     *
+     * @return string
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * Set cv.
+     *
+     * @param string $cv
+     *
+     * @return Utilisateur
+     */
+    public function setCv($cv)
+    {
+        $this->cv = $cv;
+
+        return $this;
+    }
+
+    /**
+     * Get cv.
+     *
+     * @return string
+     */
+    public function getCv()
+    {
+        return $this->cv;
+    }
+    public function __toString()
+    {
+        return parent::__toString();
+    }
+    /**
+     * Set region.
+     *
+     * @param string $region
+     *
+     * @return Utilisateur
+     */
+    public function setRegion($region)
+    {
+        $this->region = $region;
+
+        return $this;
+    }
+
+    /**
+     * Get region.
+     *
+     * @return string
+     */
+    public function getRegion()
+    {
+        return $this->region;
     }
 }

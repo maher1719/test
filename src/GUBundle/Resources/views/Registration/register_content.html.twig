@@ -19,6 +19,7 @@
         background: #555 none repeat scroll 0 0;
     }
 </style>
+<link rel="stylesheet" href="{{ asset('js/select2-master/dist/css/select2.min.css') }}">
 {% endblock css %}
 {% block contenu %}
     {% block fos_user_content %}
@@ -173,28 +174,103 @@
     <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
     <script src="{{ asset('js/plugins.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+        <script src="{{ asset('js/select2-master/dist/js/select2.min.js') }}"></script>
     <script >
     $(document).ready(function(){
+        $('.region,.ville,.pays').select2();
+        $(".region,.ville").prop("disabled", true);
         $(".fos_user_registration_register").hide();
+        var $pays=$(".pays");
+        const BATTUTA_KEY="149f419ffa589fb845481a824ee5ce55";
+        var url_pays="{{asset('js/countries.json')}}";
+        $(".pays option").remove();
+        $.getJSON(url_pays, function(json, textStatus) {
+                /*optional stuff to do after success */
+                $.each(json, function (i, item) {
+
+                    $pays.append('<option data-code="'+item.code+'" value="'+item.name+'">'+item.name+'</option>');
+                });
+        });
+        $pays.change(function(event) {
+            /* Act on the event */
+            var countryCode=$(this).find(":selected").data("code");
+            //alert(countryCode);
+        
+        // Populate country select box from battuta API
+        url="https://battuta.medunes.net/api/region/"
+        +countryCode
+        +"/all/?key="+BATTUTA_KEY+"&callback=?";
+
+        $.getJSON(url,function(regions)
+        {
+            $(".region option,.ville option").remove();
+            //loop through regions..
+            $.each(regions,function(key,region)
+            {
+                $(".region").append("<option value='"+region.region+"'>"+region.region+"</option>");
+            });
+            $(".region").fadeIn(1000);
+             $(".region").prop("disabled", false);
+        });
+
+    });
+        $(".region").on("change",function()
+    {
+        
+        // Populate country select box from battuta API
+        var countryCode=$pays.find(":selected").data("code");
+        //alert(countryCode);
+        region=$(".region").val();
+        url="https://battuta.medunes.net/api/city/"
+        +countryCode
+        +"/search/?region="
+        +region
+        +"&key="
+        +BATTUTA_KEY
+        +"&callback=?";
+        
+        $.getJSON(url,function(villes)
+        {
+            /*currentCities=cities;
+            var i=0;*/
+            $(".ville option").remove();
+        
+            //loop through regions..
+            $.each(villes,function(key,ville)
+            {
+                $("<option></option>")
+                                .attr("value",ville.city)
+                                .append(ville.city)
+                        .appendTo($(".ville"));
+            });
+             $(".ville").prop("disabled", false);
+            $(".ville").fadeIn(1000);
+            // trigger "change" to fire the #state section update process
+            
+            
+        });
+        }); 
+
+        
+        //document.getElementById("fos_user_registration_form_fax").required="false";
         $(".vendeur,.hiddenRole").hide();
         $("#returnToChoice").hide();
         $(".inscri").click(function(event) {
             $("#returnToChoice").fadeIn("3000");
             var type=($(this).data("role"));
-            alert(type);
+            //alert(type);
             $("#choice").fadeOut("1000");
             $(".fos_user_registration_register").fadeIn('1000');
-            if(type=="vendeur"){
+            if(type=="ROLE_VENDOR"){
                 $(".vendeur").show();
+                //document.getElementById("fos_user_registration_form_fax").required="true";
             }
             var $select=$(".hiddenRole");
             $select.val(type);
-            alert($select.val());
-            //alert($select.html());
 
         });
         $("#returnToChoice").click(function(event) {
-            /* Act on the event */
+            
             $("#returnToChoice").hide();
             $(".fos_user_registration_register").fadeOut('1000');
             $("#choice").fadeIn("1000");
